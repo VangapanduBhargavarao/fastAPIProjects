@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link href="../static/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <center>
+      <h1>Registration Page</h1>
+      <form method="POST" action="/register">
+        <input
+          type="text"
+          name="fname"
+          placeholder="enter your name"
+          required
+        /><br /><br />
+        <input
+          type="text"
+          name="lname"
+          placeholder="enter your last name"
+          required
+        /><br /><br />
+        <input
+          type="number"
+          name="phone_number"
+          placeholder="enter your phone number"
+          required
+        /><br /><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="enter your mail id"
+          required
+        /><br /><br />
+        <input
+          type="text"
+          name="zipcode"
+          placeholder="enter your zipcode"
+          required
+        /><br /><br />
+        <input type="submit" value="submit" />
+        <input type="reset" value="clear" />
+      </form>
+    </center>
+  </body>
+</html>

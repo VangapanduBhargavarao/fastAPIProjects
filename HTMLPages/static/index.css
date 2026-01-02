@@ -1,0 +1,16 @@
+body {
+  background-color: aqua;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  font-size: 25px;
+  padding: 1%;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  font-size: 25px;
+  padding-right: 0.4%;
+  margin-right: auto;
+}
